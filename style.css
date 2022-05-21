@@ -47,12 +47,12 @@ body {
   word-break: break-all;
 }
 
-.output .previous-operhand {
+.output .previous-operand {
   color: rgba(255, 255, 255, .75);
   font-size: 1.5rem;
 }
 
-.output .current-operhand {
+.output .current-operand {
   color: rgb(251, 251, 251);
   font-size: 2.5rem;
 }
