@@ -1,5 +1,5 @@
 class Calculator {
-  constructor(previousOperandTextElement, currentOperandTextElement){
+  constructor(previousOperandTextElement, currentOperandTextElement) {
    this.previousOperandTextElement = previousOperandTextElement 
    this.currentOperandTextElement = currentOperandTextElement 
    this.clear()
@@ -27,7 +27,7 @@ class Calculator {
     }
      this.operation = operation
      this.previousOperand = this.currentOperand
-     this.currentOperand =''
+     this.currentOperand = ''
   }
 
   compute() {
@@ -72,7 +72,7 @@ class Calculator {
         maximumFractionDigits: 0 })
     }
     if (decimalDigits != null) {
-      return`${integerDisplay}.${decimalDigits}`
+      return`${integerDisplay} ${decimalDigits}`
      } else {
        return integerDisplay
      }
